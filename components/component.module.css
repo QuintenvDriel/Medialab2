@@ -1,0 +1,23 @@
+.component {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl) var(--padding-631xl) var(--padding-45xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .component {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .component {
+    padding-bottom: var(--padding-403xl);
+    box-sizing: border-box;
+  }
+}

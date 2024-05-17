@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-anek-latin: "Anek Latin";
+  --font-anek-gurmukhi: "Anek Gurmukhi";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-131xl: 150px;
+  --font-size-6xl: 25px;
+  --font-size-xl: 20px;
+  --font-size-61xl: 80px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-sm: 14px;
+  --font-size-31xl: 50px;
+  --font-size-11xl: 30px;
+  --font-size-smi: 13px;
+  --font-size-mini: 15px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-18xl: 37px;
+  --font-size-41xl: 60px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-midnightblue-100: #0c2074;
+  --color-midnightblue-200: rgba(12, 32, 116, 0.43);
+  --color-midnightblue-300: rgba(12, 32, 116, 0.5);
+  --color-black: #000;
+  --color-skyblue-100: #86d2ed;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-21xl: 40px;
+  --gap-sm: 14px;
+  --gap-12xs: 1px;
+  --gap-76xl: 95px;
+  --gap-5xl: 24px;
+  --gap-28xl: 47px;
+
+  /* Paddings */
+  --padding-55xl: 74px;
+  --padding-18xl: 37px;
+  --padding-5xs: 8px;
+  --padding-12xs: 1px;
+  --padding-xs: 12px;
+  --padding-27xl: 46px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-lg: 18px;
+  --padding-48xl: 67px;
+  --padding-49xl: 68px;
+  --padding-44xl: 63px;
+  --padding-45xl: 64px;
+  --padding-13xl: 32px;
+  --padding-12xl: 31px;
+  --padding-6xl: 25px;
+
+  /* Border radiuses */
+  --br-sm: 14px;
+}

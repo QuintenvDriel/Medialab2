@@ -1,0 +1,181 @@
+.button1Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-300);
+  cursor: pointer;
+}
+.introductie {
+  position: absolute;
+  top: 20.37%;
+  left: 12.94%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.button1 {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.button2Child {
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-300);
+  cursor: pointer;
+}
+.button2,
+.button2Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.onsTeam {
+  position: absolute;
+  top: 11px;
+  left: 38px;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 126px;
+  z-index: 1;
+}
+.buttonComponent {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.button3Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-300);
+  cursor: pointer;
+}
+.deOpdracht {
+  position: absolute;
+  top: 20.37%;
+  left: 9.95%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.button3 {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.button4Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-300);
+  cursor: pointer;
+}
+.onzeConcepten {
+  position: absolute;
+  top: 24.07%;
+  left: 6.47%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.button4 {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+  font-size: var(--font-size-6xl);
+}
+.button5Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-300);
+  cursor: pointer;
+}
+.definitiefConcept {
+  position: absolute;
+  top: 29.63%;
+  left: 10.95%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.button5 {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+  font-size: var(--font-size-xl);
+}
+.teamComponents {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-anek-latin);
+}
+@media screen and (max-width: 1050px) {
+  .deOpdracht,
+  .introductie,
+  .onsTeam {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .teamComponents {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .deOpdracht,
+  .introductie,
+  .onsTeam {
+    font-size: var(--font-size-lg);
+  }
+  .onzeConcepten {
+    font-size: var(--font-size-xl);
+  }
+  .definitiefConcept {
+    font-size: var(--font-size-base);
+  }
+}

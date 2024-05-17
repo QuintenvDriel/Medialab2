@@ -1,0 +1,112 @@
+.teamNames,
+.teamNames1,
+.teamNames2,
+.teamNames3,
+.teamNames4,
+.teamNames5 {
+  align-self: stretch;
+  width: 201px;
+  position: relative;
+  box-shadow: 0 11px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-skyblue);
+  border: 3px solid var(--color-midnightblue-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.kevin {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 142px;
+  left: 39px;
+  display: inline-block;
+  min-width: 122px;
+  z-index: 1;
+}
+.daan {
+  left: 260px;
+  min-width: 112px;
+}
+.charlize,
+.daan,
+.jorick,
+.quinten,
+.ranagul {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 142px;
+  display: inline-block;
+  z-index: 1;
+}
+.jorick {
+  left: 467px;
+}
+.charlize,
+.quinten,
+.ranagul {
+  right: 445px;
+}
+.charlize,
+.ranagul {
+  right: 227px;
+}
+.charlize {
+  right: 13px;
+}
+.theTeam,
+.theTeam1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theTeam1 {
+  flex: 1;
+  overflow-x: auto;
+  position: relative;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.theTeam {
+  height: 1151px;
+  padding: 0 var(--padding-10xs) var(--padding-773xl) var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-anek-gurmukhi);
+}
+@media screen and (max-width: 1200px) {
+  .theTeam {
+    padding-bottom: var(--padding-496xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .charlize,
+  .daan,
+  .jorick,
+  .kevin,
+  .quinten,
+  .ranagul {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .theTeam {
+    padding-bottom: var(--padding-316xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .charlize,
+  .daan,
+  .jorick,
+  .kevin,
+  .quinten,
+  .ranagul {
+    font-size: var(--font-size-11xl);
+  }
+}

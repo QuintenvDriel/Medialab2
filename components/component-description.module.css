@@ -1,0 +1,213 @@
+.componentDetails {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-200);
+  cursor: pointer;
+}
+.introductie {
+  position: absolute;
+  top: 20.37%;
+  left: 12.94%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-anek-latin);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.introductieButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.componentDetails1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-200);
+  cursor: pointer;
+}
+.onsTeam {
+  position: absolute;
+  top: 20.37%;
+  left: 18.91%;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  font-family: var(--font-anek-latin);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 126px;
+  z-index: 1;
+}
+.teamButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.componentDetails2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-200);
+  cursor: pointer;
+}
+.deOpdracht {
+  position: absolute;
+  top: 20.37%;
+  left: 9.95%;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-anek-latin);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.opdrachtButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.componentDetails3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-200);
+  cursor: pointer;
+}
+.onzeConcepten {
+  position: absolute;
+  top: 24.07%;
+  left: 6.47%;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-anek-latin);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.conceptenButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.componentDetails4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-midnightblue-200);
+  cursor: pointer;
+}
+.definitiefConcept {
+  position: absolute;
+  top: 29.63%;
+  left: 10.95%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-anek-latin);
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.definitiefButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 54px;
+  flex: 1;
+  position: relative;
+  min-width: 197px;
+  max-width: 201px;
+}
+.componentDescription {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  z-index: 2;
+}
+@media screen and (max-width: 1050px) {
+  .deOpdracht,
+  .introductie,
+  .onsTeam {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .componentDescription {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .deOpdracht,
+  .introductie,
+  .onsTeam {
+    font-size: var(--font-size-lg);
+  }
+  .onzeConcepten {
+    font-size: var(--font-size-xl);
+  }
+  .definitiefConcept {
+    font-size: var(--font-size-base);
+  }
+}
