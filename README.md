@@ -1,5 +1,5 @@
 
-  # DC8 - Team Balans 5
+  # one-pager versie 1 (17-5)
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 

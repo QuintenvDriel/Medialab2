@@ -50,7 +50,7 @@
   min-width: 126px;
   z-index: 1;
 }
-.buttonComponent {
+.teamButton {
   height: 54px;
   flex: 1;
   position: relative;
@@ -154,14 +154,12 @@
   color: var(--color-white);
   font-family: var(--font-anek-latin);
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 800px) {
   .deOpdracht,
   .introductie,
   .onsTeam {
     font-size: var(--font-size-5xl);
   }
-}
-@media screen and (max-width: 750px) {
   .teamComponents {
     gap: var(--gap-xl);
   }

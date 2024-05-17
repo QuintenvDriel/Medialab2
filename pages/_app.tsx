@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>DC8 - Team Balans 5</title>
+        <title>one-pager versie 1 (17-5)</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

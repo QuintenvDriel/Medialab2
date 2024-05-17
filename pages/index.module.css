@@ -1,55 +1,12 @@
-.mainParent {
+.containerParent {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: 0 0 351px;
+  box-sizing: border-box;
   gap: 162px;
-  max-width: 100%;
-}
-.onzeConcepten {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  z-index: 1;
-}
-.emptyArray,
-.finalConcept {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.finalConcept {
-  flex-direction: row;
-  padding: 0 var(--padding-5xs);
-}
-.emptyArray {
-  align-self: stretch;
-  flex-direction: column;
-  padding: 0 0 1635px;
-  gap: 624px;
-}
-.definitiefConcept {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  z-index: 1;
-}
-.definitiefConceptWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-5xs);
-  box-sizing: border-box;
   max-width: 100%;
 }
 .image1Icon,
@@ -72,9 +29,13 @@
   width: 100%;
   height: 100%;
 }
-.deOpdracht,
+.blankLine,
+.deOpdracht {
+  margin: 0;
+}
 .vanuitHetErasmus {
   margin: 0;
+  font-weight: 500;
 }
 .deOpdrachtVanuitContainer {
   position: absolute;
@@ -84,69 +45,42 @@
   width: 1187px;
   z-index: 2;
 }
-.picturesParent {
-  position: absolute;
-  top: 1399px;
-  left: 76px;
-  width: 1292px;
-  height: 344px;
-  z-index: 1;
-}
 .pictures1,
-.pictures2 {
-  left: 74px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(20px);
-  background-color: var(--color-midnightblue-300);
-  height: 419px;
-}
-.pictures1 {
-  position: absolute;
-  top: 2966px;
-  border-radius: var(--br-sm);
-  width: 1292px;
-  z-index: 1;
-}
-.pictures2 {
-  top: 2040px;
-}
 .pictures2,
 .pictures3,
-.pictures4,
-.pictures5,
-.pictures6 {
+.picturesParent {
   position: absolute;
-  border-radius: var(--br-sm);
+  left: 76px;
   width: 1292px;
   z-index: 1;
 }
-.pictures3 {
-  top: 2503px;
-  left: 74px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(20px);
-  background-color: var(--color-midnightblue-300);
-  height: 419px;
+.picturesParent {
+  top: 1399px;
+  height: 344px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-anek-latin);
 }
-.pictures4,
-.pictures5,
-.pictures6 {
+.pictures1,
+.pictures2,
+.pictures3 {
   top: 1959px;
-  left: 76px;
   filter: blur(4px);
+  border-radius: var(--br-sm);
   background-color: var(--color-midnightblue-200);
   height: 12px;
 }
-.pictures5,
-.pictures6 {
+.pictures2,
+.pictures3 {
   top: 3754px;
 }
-.pictures6 {
+.pictures3 {
   top: 215px;
   left: 74px;
   z-index: 2;
 }
-.conceptImages {
+.imageGallery {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -155,10 +89,24 @@
   right: 0;
   bottom: 0;
   left: 0;
-  text-align: left;
-  font-size: var(--font-size-6xl);
-  color: var(--color-black);
-  font-family: var(--font-anek-latin);
+}
+.definitiefConcept {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.conceptTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .description {
   margin: 0;
@@ -182,25 +130,33 @@
   height: 626px;
   z-index: 2;
 }
-.finalConceptContent {
+.conceptImage {
   align-self: stretch;
   height: 660px;
   position: relative;
   font-size: 600px;
   color: var(--color-white);
 }
+.conceptTitleParent,
+.onePager {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.conceptTitleParent {
+  align-self: stretch;
+  gap: 71px;
+  max-width: 100%;
+}
 .onePager {
   width: 100%;
   position: relative;
   background-color: var(--color-white);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 70px var(--padding-55xl) 78px;
   box-sizing: border-box;
-  gap: 71px;
+  gap: 273px;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
@@ -208,22 +164,17 @@
   color: var(--color-black);
   font-family: var(--font-anek-latin);
 }
-@media screen and (max-width: 1200px) {
-  .mainParent {
+@media screen and (max-width: 1325px) {
+  .containerParent {
     gap: 81px;
-  }
-  .emptyArray {
-    gap: 312px;
-    padding-bottom: 691px;
+    padding-bottom: 228px;
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1050px) {
-  .onzeConcepten {
-    font-size: var(--font-size-21xl);
-  }
-  .emptyArray {
-    padding-bottom: 449px;
+@media screen and (max-width: 800px) {
+  .containerParent {
+    gap: var(--gap-21xl);
+    padding-bottom: 148px;
     box-sizing: border-box;
   }
   .definitiefConcept {
@@ -232,43 +183,35 @@
   .description {
     font-size: 240px;
   }
-}
-@media screen and (max-width: 750px) {
-  .mainParent {
-    gap: var(--gap-21xl);
-  }
-  .emptyArray {
-    gap: 156px;
+  .conceptTitleParent {
+    gap: 35px;
   }
   .onePager {
-    gap: 35px;
+    gap: 136px;
     padding-left: var(--padding-18xl);
     padding-right: var(--padding-18xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .mainParent {
+  .containerParent {
     gap: var(--gap-xl);
-  }
-  .onzeConcepten {
-    font-size: var(--font-size-5xl);
-  }
-  .emptyArray {
-    gap: 78px;
-    padding-bottom: 292px;
+    padding-bottom: 96px;
     box-sizing: border-box;
-  }
-  .definitiefConcept {
-    font-size: var(--font-size-5xl);
   }
   .deOpdrachtVanuitContainer {
     font-size: var(--font-size-xl);
   }
+  .definitiefConcept {
+    font-size: var(--font-size-5xl);
+  }
   .description {
     font-size: var(--font-size-131xl);
   }
-  .onePager {
+  .conceptTitleParent {
     gap: 18px;
+  }
+  .onePager {
+    gap: 68px;
   }
 }

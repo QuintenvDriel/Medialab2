@@ -44,7 +44,7 @@ const TeamComponents: NextPage = () => {
         <div className={styles.button1Child} onClick={onRectangleClick} />
         <b className={styles.introductie}>Introductie</b>
       </div>
-      <div className={styles.buttonComponent}>
+      <div className={styles.teamButton}>
         <div className={styles.button2}>
           <div className={styles.button2Child} onClick={onRectangle2Click} />
         </div>

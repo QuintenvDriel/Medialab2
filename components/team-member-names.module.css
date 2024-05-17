@@ -15,7 +15,7 @@
   min-width: 124.9px;
   z-index: 1;
 }
-.kevinWrapper {
+.kevinCard {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -67,7 +67,7 @@
   min-width: 112px;
   z-index: 1;
 }
-.daanWrapper {
+.daanCard {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -108,52 +108,76 @@
   gap: var(--gap-12xs);
 }
 .jorickChild {
-  height: 368px;
   width: 302px;
+  height: 368px;
   position: relative;
   box-sizing: border-box;
   display: none;
 }
 .jorick1 {
   position: relative;
-  line-height: 44.9px;
+  z-index: 1;
+}
+.jorickCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl);
+}
+.hiIkBen1 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine3,
+.blankLine4 {
+  margin: 0;
+}
+.hiIkBenContainer1 {
+  width: 254px;
+  height: 284px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
   z-index: 1;
 }
 .jorick,
 .quintenChild {
-  width: 302px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-sm);
   background-color: var(--color-skyblue-100);
   border: 3px solid var(--color-midnightblue-100);
-  box-sizing: border-box;
 }
 .jorick {
-  align-self: stretch;
-  flex-shrink: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  padding: var(--padding-base) var(--padding-xl);
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xl) 0;
+  gap: var(--gap-8xs);
 }
 .quintenChild {
+  width: 302px;
   height: 368px;
   position: relative;
+  box-sizing: border-box;
   display: none;
 }
 .quinten1 {
   position: relative;
   z-index: 1;
 }
-.quintenWrapper {
+.quintenCard {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-27xl);
 }
-.blankLine3,
+.blankLine5,
 .heyIkBen1,
 .inOnsTeam {
   margin: 0;
@@ -169,11 +193,14 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.quinten {
+.quinten,
+.ranagulPicture {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-sm);
   background-color: var(--color-skyblue-100);
   border: 3px solid var(--color-midnightblue-100);
+}
+.quinten {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -181,124 +208,146 @@
   padding: var(--padding-xs) var(--padding-xs) 0;
   gap: var(--gap-12xs);
 }
-.ranagul,
 .ranagulPicture {
   position: absolute;
-  margin: 0 !important;
-}
-.ranagulPicture {
-  height: calc(100% - 1px);
-  width: 303px;
+  height: 100%;
   top: 0;
-  right: -275px;
-  bottom: 1px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-sm);
-  background-color: var(--color-skyblue-100);
-  border: 3px solid var(--color-midnightblue-100);
+  bottom: 0;
+  left: 0;
   box-sizing: border-box;
-  flex-shrink: 0;
+  width: 303px;
 }
-.ranagul {
-  width: 183.9px;
+.ranagul1 {
+  position: absolute;
   top: 16px;
-  right: -214.9px;
+  left: 59px;
   display: inline-block;
+  width: 183.9px;
+  height: 60px;
   z-index: 1;
 }
-.blankLine4,
+.ranagulCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 102px;
+  height: 368px;
+}
+.blankLine6,
 .hihiIkBen,
 .mijnDoelIn {
   margin: 0;
 }
 .hihiIkBenContainer {
-  height: 301.4px;
-  width: 279.4px;
-  right: -262.4px;
-  bottom: -11.4px;
+  position: absolute;
+  width: calc(100% - 23.6px);
+  top: 79px;
+  left: 11px;
   font-size: var(--font-size-smi);
   font-family: var(--font-inter);
   text-align: center;
   display: inline-block;
+  height: 301.4px;
   z-index: 1;
 }
-.charlize,
-.hihiIkBenContainer,
-.teamMembers {
-  position: absolute;
-  margin: 0 !important;
+.ranagul {
+  height: 380.4px;
+  width: 303px;
+  position: relative;
+  flex-shrink: 0;
 }
-.teamMembers {
-  height: calc(100% - 1px);
+.charlizeChild {
   width: 302px;
-  top: 0;
-  right: -590px;
-  bottom: 1px;
+  height: 368px;
+  position: relative;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-sm);
   background-color: var(--color-skyblue-100);
   border: 3px solid var(--color-midnightblue-100);
   box-sizing: border-box;
-  flex-shrink: 0;
+  display: none;
 }
-.charlize {
-  width: 180.2px;
-  top: 16px;
-  right: -530.2px;
-  display: inline-block;
+.charlize1 {
+  flex: 1;
+  position: relative;
   z-index: 1;
 }
-.blankLine5,
-.blankLine6,
-.hiIkBen1,
-.ikKijkUit,
-.ikVindHet1 {
-  margin: 0;
-}
-.hiIkBenContainer1 {
-  height: 288px;
+.charlizeCard {
   width: 281.5px;
-  position: absolute;
-  margin: 0 !important;
-  right: -580.5px;
-  bottom: 4px;
-  font-size: var(--font-size-sm);
-  font-family: var(--font-anek-latin);
-  text-align: center;
-  display: inline-block;
-  z-index: 1;
-}
-.teamMemberNames {
-  align-self: stretch;
-  height: 369px;
-  overflow-x: auto;
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-12xs);
+  padding: 0 var(--padding-31xl) 0 var(--padding-32xl);
   box-sizing: border-box;
+}
+.blankLine7,
+.blankLine8,
+.hiIkBen2,
+.ikKijkUit,
+.ikVindHet1 {
+  margin: 0;
+}
+.hiIkBenContainer2 {
+  width: 281.5px;
+  height: 288px;
   position: relative;
-  gap: var(--gap-sm);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-anek-latin);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.charlize,
+.teamMemberNames,
+.theTeam {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.charlize {
+  width: 302px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-sm);
+  background-color: var(--color-skyblue-100);
+  border: 3px solid var(--color-midnightblue-100);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-7xs) 0 var(--padding-5xs);
+  gap: var(--gap-12xs);
+}
+.teamMemberNames,
+.theTeam {
+  overflow-x: auto;
+  flex-direction: row;
+}
+.theTeam {
+  width: 1366px;
+  gap: var(--gap-sm-8);
+  debug_commit: 1de1738;
+  max-width: 106%;
+}
+.teamMemberNames {
+  align-self: stretch;
+  height: 369px;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
   z-index: 1;
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--color-black);
   font-family: var(--font-anek-gurmukhi);
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 800px) {
+  .charlize1,
   .daan1,
-  .kevin1 {
-    font-size: var(--font-size-21xl);
-  }
-  .jorick1 {
-    line-height: 36px;
-  }
-  .charlize,
   .jorick1,
+  .kevin1,
   .quinten1,
-  .ranagul {
+  .ranagul1 {
     font-size: var(--font-size-21xl);
   }
 }
@@ -306,7 +355,7 @@
   .kevin1 {
     font-size: var(--font-size-11xl);
   }
-  .kevinWrapper {
+  .kevinCard {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
@@ -314,25 +363,37 @@
   .daan1 {
     font-size: var(--font-size-11xl);
   }
-  .daanWrapper {
+  .daanCard {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
   .jorick1 {
-    line-height: 27px;
-  }
-  .jorick1,
-  .quinten1 {
     font-size: var(--font-size-11xl);
   }
-  .quintenWrapper {
+  .jorickCard {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
-  .charlize,
-  .ranagul {
+  .hiIkBenContainer1 {
+    font-size: var(--font-size-base);
+  }
+  .quinten1 {
     font-size: var(--font-size-11xl);
+  }
+  .quintenCard {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .charlize1,
+  .ranagul1 {
+    font-size: var(--font-size-11xl);
+  }
+  .charlizeCard {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
   }
 }
